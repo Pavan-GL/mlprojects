@@ -17,6 +17,7 @@ from typing import List
 
 HYPEN_E_DOT = '-e .'
 
+
 def get_requirements(file_path: str) -> List[str]:
     """
     This function return the list of requirements
@@ -30,7 +31,6 @@ def get_requirements(file_path: str) -> List[str]:
             requirements.remove(HYPEN_E_DOT)
 
     return requirements
-
 
     pass
 
